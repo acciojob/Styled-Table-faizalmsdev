@@ -1,1 +1,22 @@
 /* your code */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 10px; 
+  border: 1px solid #dddddd ;
+  border-radius:10px;
+}
+
+td, th {
+  
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+tr.header {
+  background-color: lightblue;
+}
